@@ -92,7 +92,7 @@ function validarChute(chute) {
     chuteValidado = (chute >= 1 && chute <= numeroMaximo) ? true : false;
 }
 
-let numeroMaximo = 10;
+let numeroMaximo = 100;
 exibirMensagemInicial();
 let listaDeNumerosSorteados = [];
 let numeroSecreto = gerarNumeroAleatorio();
