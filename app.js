@@ -11,7 +11,8 @@ function verificarChute() {
         return;
     }
 
-    exibirTextoNaTela("h1", "Jogo do Número Secreto");
+    // exibirTextoNaTela("h1", "Jogo do Número Secreto");
+    document.querySelector("h1").innerHTML = "Jogo do Número Secreto"; 
 
     if (chute == numeroSecreto) {
         exibirTextoNaTela("h1", "Acertou!");
